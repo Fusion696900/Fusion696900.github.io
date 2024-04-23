@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" type="image/x-icon" href="fav1.ico">
+<link rel="stylesheet" href="website.css">
+<title>Dylans Website</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #AEC6CF;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #77DD77;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome Details about my contact infromation are below</h1>
+  
+</div>
+
+<div class="topnav">
+  <a href="website.html">Home</a>
+  <a href="about1.html">About me</a>
+  <a href="reviews.html">Reviews</a>
+  <a href="contact1.html">Contact me</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Email</h2>
+   <p>If you feel the need to contact me for any reason please cintact me at 1234email@gmail.com</p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Legal</h2>
+<p> If you need to talk about legal matters Plagiarism/definition and so on please email me ag 1234gmail@gmail.com</p>
+ </div>
+
+  <div class="column side">
+    <h2>Colaberation</h2>
+    <p>If you would like to colaberate with me please email me at</p> <p style="color:red">1234colab@gmail.com</p>
+  </div>
+</div>
+  <img src="contact me.jpg" alt="contact me" style="width:1600px;height:400px"; filter:grayscale(100);">
+</body>
+</html>

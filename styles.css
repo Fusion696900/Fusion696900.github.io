@@ -1,0 +1,33 @@
+body {
+  background-color: powderblue;
+}
+
+p {
+color:blue;
+border: 13px solid red;
+border-style:dashed;
+padding: 10px;
+margin: 100px;
+}
+
+h1   {
+color:red;
+background-color:dodgerblue;
+font-size:200%;
+border-style:dotted;
+border-width: 10px;
+}
+
+body {
+  background-image: url("sunset");
+background-repeat:  no-repeat;
+background-size:  1600px;
+background-attachment: fixed;
+}
+
+img {
+float:right;
+border: 20px double;
+padding:5px;
+border-radius: 150px;
+}
